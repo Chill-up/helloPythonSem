@@ -1,11 +1,12 @@
-# Напишите программу, в которой пользователь будет задавать две строки, 
+# Напишите программу, в которой пользователь будет задавать две строки,
 # а программа - определять количество вхождений одной строки в другой.
 
-firstString = input("Введите первую строку: ")
-secondString = input("Введите вторую строку: ")
+firstString = str(input("Введите первую строку: "))
+secondString = str(input("Введите вторую строку: "))
+count = 0
 
-counterFirst = secondString.count(firstString) 
-counterSecond = firstString.count(secondString) 
-
-print ("Кол-во входений первой строки во вторую: "+  str(counterFirst))
-print ("Кол-во входений второй строки в первую: "+  str(counterSecond))
+for i in range(len(secondString) + 1):
+    substringLength = len(firstString) + i
+    if firstString == secondString[i:substringLength]: #двигаемся по строке и проверяем вхождения
+        count += 1
+print(count)
