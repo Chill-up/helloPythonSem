@@ -1,0 +1,12 @@
+1;Slon;000;dssdfdf
+1;Fox;999;dskfs
+13;Rok;666;kfsfq
+0324;Erse;777;Nope
+666;Sat;666-666;Hell
+4;Arim;24322-22-22;Yjea
+5;ssdfsfsfsfsf;888322;O
+1;New1;999932322;sgbbb
+1;Jdfsd;888;fjksjdf
+['1', 'Slon', '000', 'dssdfdf']
+3;Третий;999;фдоыв
+33232;Fdsjl;999;1111
